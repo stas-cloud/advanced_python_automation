@@ -15,4 +15,10 @@ Python automation script. sys, os, subprocesses, search, copy, move, replace...
 - Create a new /games directory 
 - Copy and remove the "game" suffix of all games into the /games directory
 - Create a .json file with the information about the games
-- Compile all of the game code 
+- Compile all of the game code
+
+# How to run:
+
+python get_game_data.py <source folder name> <destinatio folder name>
+
+example: python get_game_data.py data target
